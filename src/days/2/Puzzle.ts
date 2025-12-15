@@ -1,12 +1,17 @@
+import { intCode } from '../../utils/intcode.ts';
+
 const first = (input: string) => {
-  console.log(input);
-  return 'solution 1';
+  return intCode(
+    input
+      .split(',')
+      .filter(Boolean)
+      .map((value) => Number.parseInt(value))
+  )[0];
 };
 
-const expectedFirstSolution = 'solution 1';
+const expectedFirstSolution = '3500';
 
 const second = (input: string) => {
-  console.log(input);
   return 'solution 2';
 };
 

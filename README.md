@@ -17,3 +17,19 @@ Install the dependencies with `pnpm install`.
 Solve a specific day with `$ pnpm start <number>`
 
 ## 🌋 Challenges:
+
+### 🧑🏻‍💻 [Day 2: 1202 Program Alarm](https://adventofcode.com/2019/day/2)
+
+#### Commands
+
+```
+$ yarn start 2
+```
+
+#### Solutions
+
+```
+Challenge 01: 4930687
+
+✨  Done in 0.30s.
+```
